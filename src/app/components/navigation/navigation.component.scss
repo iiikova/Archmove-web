@@ -1,0 +1,64 @@
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+  .navigation {
+    font-family: SF UI Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navigation_logo {
+      padding-top: 10px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fd665e;
+
+      p {
+        line-height: 4px;
+      }
+      p:last-child {
+        padding-left: 15px;
+      }
+    }
+    .navigation_menu {
+      color: #585858;
+      display: flex;
+      margin-left: -330px;
+      .navigation_menu-item {
+        cursor: pointer;
+        padding: 20px;
+      }
+    }
+    .navigation_buttons {
+      color: #585858;
+      display: flex;
+      justify-content: space-between;
+      width: 230px;
+      .navigation_buttons_search {
+        color: #585858;
+        cursor: pointer;
+      }
+      .navigation_buttons_signin {
+        cursor: pointer;
+      }
+      .navigation_buttons_signup {
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 99px;
+          background-color: #fd665e;
+          border-radius: 4px;
+          color: white;
+          outline: none;
+          border: none;
+        }
+      }
+    }
+  }
+}

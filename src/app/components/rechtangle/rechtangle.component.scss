@@ -1,0 +1,126 @@
+section {
+  background: linear-gradient(
+    180deg,
+    #f9f9f9 22.12%,
+    rgba(249, 249, 249, 0) 100%
+  );
+  height: 100%;
+  width: 100%;
+  .rech {
+    .rech-title {
+      font-family: New York Extra Large;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 60px;
+      letter-spacing: -0.04em;
+      text-align: left;
+      width: 364px;
+      height: 120px;
+    }
+    .rech-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-left: 100px;
+      margin-top: 40px;
+      .rech-content-text {
+        font-family: SF UI Display;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 51px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        width: 750px;
+        height: 204px;
+      }
+      .reach-content__control {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 750px;
+        margin-left: -120px;
+        margin-top: 60px;
+        align-items: center;
+        .rech-content-author {
+          font-family: SF UI Display;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: 0.01em;
+          text-align: left;
+        }
+        .rech-content-buttons {
+          .rech-content-buttons-left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            border-radius: 4px;
+          }
+          .rech-content-buttons-right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.03);
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+  .realize {
+    display: flex;
+    align-items: center;
+    .realize-left {
+      // position: relative;
+      .realize-left__build {
+        // position: absolute;
+        width: 397px;
+        height: 684px;
+      }
+      .realize-left__cloud_big {
+      }
+      .realize-left__cloud_small {
+      }
+    }
+    .realize-right {
+      width: 501px;
+      margin-left: 140px;
+      align-items: center;
+      .realize-right__title {
+        font-family: New York Extra Large;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        span {
+          color: #fd665e;
+        }
+      }
+      .realize-right__btn {
+        margin-top: 70px;
+
+        button {
+          width: 204px;
+          height: 56px;
+          background-color: #fd665e;
+          padding: 8px 20px;
+          border-radius: 4px;
+          color: white;
+          outline: none;
+          border: none;
+        }
+      }
+    }
+  }
+}

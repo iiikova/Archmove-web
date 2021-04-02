@@ -1,0 +1,26 @@
+.parther-wrap {
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+}
+.partners {
+  padding: 65px 0;
+  .partners-title {
+    font-family: New York Extra Large;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    padding-bottom: 60px;
+  }
+  .partners-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .partners-logos-logo {
+      img {
+      }
+    }
+  }
+}

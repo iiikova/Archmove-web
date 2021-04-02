@@ -1,0 +1,70 @@
+.feature {
+  padding: 50px 0;
+  .feature-title {
+    font-family: New York Extra Large;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    padding-bottom: 40px;
+    width: 30%;
+  }
+  .feature-title-content {
+    display: flex;
+    justify-content: space-between;
+
+    .feature-title-content-img {
+    }
+    .feature-title-content-side {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-right: 50px;
+      .feature-title-content-side-wrap {
+        .feature-title-content-side-wrap-items {
+          width: 350px;
+          display: flex;
+          padding-bottom: 40px;
+          .feature-title-content-side-wrap-icon {
+            padding-right: 25px;
+          }
+          .feature-title-content-side-wrap-item {
+            .feature-title-content-side-wrap-item-title {
+              padding-bottom: 10px;
+              font-family: SF UI Display;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 26px;
+              letter-spacing: 0.01em;
+              text-align: left;
+            }
+            .feature-title-content-side-wrap-item-text {
+              font-family: SF UI Display;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 26px;
+              letter-spacing: 0.01em;
+              text-align: left;
+            }
+          }
+        }
+        button {
+          width: 179px;
+          height: 56px;
+          background-color: #fd665e;
+          padding: 8px 20px;
+          border-radius: 4px;
+          color: white;
+          outline: none;
+          border: none;
+          margin-left: 35px;
+        }
+      }
+    }
+  }
+}

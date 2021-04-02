@@ -1,0 +1,56 @@
+section {
+}
+.header {
+  .header-title {
+    width: 800px;
+    padding: 50px 0 0;
+    font-family: New York Extra Large;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    span {
+      color: #fd665e;
+    }
+  }
+  .header-content {
+    padding: 50px 0;
+
+    .header-content-left {
+      font-family: SF UI Display;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0.01em;
+      text-align: left;
+
+      p {
+        width: 290px;
+        padding-bottom: 50px;
+      }
+      button {
+        width: 179px;
+        height: 56px;
+        background-color: #fd665e;
+        padding: 8px 20px;
+        border-radius: 4px;
+        color: white;
+        outline: none;
+        border: none;
+      }
+    }
+    .header-content-right {
+      width: 765px;
+      display: flex;
+      justify-content: flex-end;
+      .header-content-right img {
+        object-fit: contain;
+        width: 645px;
+        height: 480px;
+      }
+    }
+  }
+}
