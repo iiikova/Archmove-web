@@ -20,13 +20,10 @@ import { FooterComponent } from './components/footer/footer.component';
     FeatureComponent,
     RechtangleComponent,
     PartnersComponent,
-    FooterComponent
+    FooterComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
