@@ -2,6 +2,8 @@
   width: 90%;
   margin: 0 auto;
   .navigation {
+    margin-top: 20px;
+
     font-family: SF UI Display;
     font-size: 14px;
     font-style: normal;
@@ -29,9 +31,13 @@
       color: #585858;
       display: flex;
       margin-left: -330px;
-      .navigation_menu-item {
+      .navigation_menu-item a {
         cursor: pointer;
         padding: 20px;
+        color: #585858;
+      }
+      .navigation_menu-item a:hover {
+        text-decoration: underline;
       }
     }
     .navigation_buttons {
@@ -45,6 +51,16 @@
       }
       .navigation_buttons_signin {
         cursor: pointer;
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 99px;
+          background-color: transparent;
+          border-radius: 4px;
+          outline: none;
+          border: none;
+        }
       }
       .navigation_buttons_signup {
         button {
